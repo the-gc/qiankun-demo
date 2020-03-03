@@ -24,6 +24,12 @@ registerMicroApps([
         entry: '//localhost:7101',
         render,
         activeRule: getActiveRule('/app2')
+    },
+    {
+        name: 'app3',
+        entry: '//localhost:7104',
+        render,
+        activeRule: getActiveRule('/app3')
     }
 ]);
 

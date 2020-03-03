@@ -20,8 +20,8 @@ export default function Framework(props) {
     return (
         <div>
             <ul>
-                <li onClick={goto('app1', '/app1')}>app1</li>
-                <li onClick={goto('app2', '/app2')}>app1</li>
+                <li onClick={goto('App1', '/app1')}>app1</li>
+                <li onClick={goto('App2', '/app2')}>app2</li>
             </ul>
             <SubApp {...props}/>
         </div>
